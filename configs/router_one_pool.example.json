@@ -1,0 +1,16 @@
+{
+  "mode": "static",
+  "model": "heteroserve-model",
+  "static_pool": "a40_colocated",
+  "max_inflight_per_pool": 8,
+  "health_interval_s": 5,
+  "timeout_s": 120,
+  "pools": [
+    {
+      "name": "a40_colocated",
+      "url": "http://127.0.0.1:8000",
+      "route_kind": "colocated",
+      "deployed": true
+    }
+  ]
+}

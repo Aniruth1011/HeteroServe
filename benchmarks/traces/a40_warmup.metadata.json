@@ -1,0 +1,10 @@
+{
+  "max_model_len": 2048,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt_tokens_max": 18,
+  "prompt_tokens_min": 13,
+  "requests": 10,
+  "source_sha256": "cecc8b4ee34c8b09706048d428f79338b842d0bf12a6e3cccf0495c1a5fada3d",
+  "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "trace_sha256": "29769767e6593fc090989804d48951ad0568d48f65fb8608457fdbb62961fbd2"
+}

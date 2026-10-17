@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heteroserve"
+version = "0.1.0"
+description = "Reproducible heterogeneous vLLM serving experiments"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+client = ["httpx==0.28.1"]
+gpu = ["vllm==0.11.2", "httpx==0.28.1"]
+analysis = ["matplotlib==3.10.1"]
+
+[project.scripts]
+heteroserve-trace = "heteroserve.cli:main"
+heteroserve-text-trace = "heteroserve.text_trace:main"
+heteroserve-replay = "heteroserve.replay:main"
+heteroserve-evaluate = "heteroserve.evaluation:main"
+heteroserve-analyze = "heteroserve.analysis:main"
+heteroserve-plot = "heteroserve.plot:main"
+heteroserve-router = "heteroserve.router:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

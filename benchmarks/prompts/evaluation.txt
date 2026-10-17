@@ -1,0 +1,20 @@
+Explain how a binary search finds an item in a sorted list, with one example.
+Summarize the difference between concurrency and parallelism in three sentences.
+Write a Python function that computes the running average of a list of numbers.
+Describe two reasons a web service may have high tail latency during a traffic burst.
+Give a short checklist for debugging a failed HTTP request to a local server.
+Explain why measuring only average latency can hide a poor user experience.
+Write a paragraph about how a library might organize its catalog for fast lookup.
+Compare the memory needs of a short prompt and a long prompt during text generation.
+Explain what a checksum proves when transferring a file between computers.
+Describe how a queue changes when requests arrive faster than they are completed.
+Write a short recipe for a vegetarian lunch using pantry ingredients.
+Give an example of a misleading chart and describe how to correct it.
+Explain what a random seed controls in a repeatable software experiment.
+Summarize how a traffic generator can simulate bursts and steady arrivals.
+Write a brief email confirming a meeting time without mentioning personal details.
+Explain the difference between the time to first response and total request time.
+Describe a simple test for a function that parses comma-separated values.
+Explain why a warmup period can change measurements of a model server.
+Write three questions a researcher should ask before comparing two systems.
+Describe how to handle a request that times out after entering a server queue.
